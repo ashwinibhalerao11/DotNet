@@ -265,6 +265,15 @@ namespace DotNet.Patterns
             }
         }
     }
+    class Pattern15
+    {
+        static void Main(string[] args)
+        {
+
+        }
+
+      
+    }
 }
 
        

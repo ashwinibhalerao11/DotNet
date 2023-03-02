@@ -27,22 +27,22 @@ namespace DotNet.Assignments
         {
             char ch = 'A';
             Console.WriteLine("Alphabates from A to Z are: ");
-            for(ch='A';ch<='Z';ch++)
+            for (ch = 'A'; ch <= 'Z'; ch++)
             {
                 Console.Write(ch + "\t");
             }
 
         }
-        
+
     }
     class OddNum
     {
         static void Main(string[] args)
         {
             int num = 521;
-            while(num>=229)
+            while (num >= 229)
             {
-                if(num%2!=0)
+                if (num % 2 != 0)
                 {
                     Console.WriteLine(num);
                 }
@@ -70,12 +70,12 @@ namespace DotNet.Assignments
         {
             //sum of even no
             int sum = 0;
-            
-            for(int i=1;i<=20;i++)
+
+            for (int i = 1; i <= 20; i++)
             {
-                if(i%2==0)
+                if (i % 2 == 0)
                 {
-                    sum = sum+i;
+                    sum = sum + i;
 
                 }
                 Console.WriteLine(sum);
@@ -84,14 +84,14 @@ namespace DotNet.Assignments
     }
     class LoopQ6
     {
-        static  void Main(string[] args)
+        static void Main(string[] args)
         {
             //sum of odd no
             int sum = 0;
             int n = 10;
-            for(int i=1;i<=n;i++)
+            for (int i = 1; i <= n; i++)
             {
-                if(i%2!=0)
+                if (i % 2 != 0)
                 {
                     sum = sum + i;
 
@@ -108,7 +108,7 @@ namespace DotNet.Assignments
             // count digit of no
             int count1 = 0;
             Console.WriteLine("Enter the Number");
-            int num= int.Parse(Console.ReadLine());
+            int num = int.Parse(Console.ReadLine());
 
             while (num > 0)
             {
@@ -133,7 +133,7 @@ namespace DotNet.Assignments
 
             int power = 1;
             int i;
-            for(i=1; i<=exponent;i++)
+            for (i = 1; i <= exponent; i++)
             {
                 power = power * baseNumber;
 
@@ -141,4 +141,51 @@ namespace DotNet.Assignments
             Console.WriteLine(power);
         }
     }
+    class LoopQ9
+    {
+        static void Main(string[] args)
+        {
+            //prime no between 400 to 300
+            for (int num = 400; num >= 300; num++)
+            {
+                bool isprime = true;
+                for (int i = 2; i <= num; i++)
+                {
+                    if (num % i == 0)
+                    {
+                        isprime = false;
+                        break;
+                    }
+                }
+                if (isprime == true)
+                {
+                    Console.WriteLine(num);
+                }
+            }
+        }
+    }
+    class LoopQ10
+    {
+        static void Main(string[] args)
+        {
+            // print table of given no
+            Console.WriteLine("enter the number");
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(n * i);
+
+            }
+
+        }
+    }
+    class LoopQ11
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
 }
+
+

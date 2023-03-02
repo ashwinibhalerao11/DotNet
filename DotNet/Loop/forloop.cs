@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DotNet.Assignments;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,9 +51,8 @@ namespace DotNet.loop
 
             //Display table of given no
 
-            Console.WriteLine("Enter the number for table");
+            Console.WriteLine("enter the number");
             int n = int.Parse(Console.ReadLine());
-
             for (int i = 1; i <= 10; i++)
             {
                 Console.WriteLine(n * i);
