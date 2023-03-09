@@ -5,7 +5,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<startupObject>DotNet.Inheritance.Hierachical.HierachicalDemo2</startupObject>				
+		<startupObject>DotNet.Array.ArrayDemo1</startupObject>				
 	
 </PropertyGroup>
 	  
