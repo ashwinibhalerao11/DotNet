@@ -8,6 +8,7 @@ namespace DotNet.Array
 {
     internal class ArrayDemo1
     {
+        // character type of array
         static void Main(string[] args)
         {
             char[] ch = new char[4];
