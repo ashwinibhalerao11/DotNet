@@ -5,7 +5,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<startupObject>DotNet.WeekTests.TQue5t</startupObject>				
+		<startupObject>DotNet.Array.SortChar</startupObject>				
 	
 </PropertyGroup>
 	  

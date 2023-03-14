@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -36,6 +37,15 @@ namespace DotNet.Array
                 Console.WriteLine("Enter the id");
                 int id = int.Parse(Console.ReadLine());
                 Console.WriteLine("Enter the Name");
+                string name = Console.ReadLine();
+                Console.WriteLine("Enter the marks");
+                int[] mks = new int[4];
+                for (int j = 0; j < mks.Length; j++) 
+                {
+                    mks[j] = int.Parse(Console.ReadLine());
+                }
+                s[i] = new Stud(id, name, mks);
+
             }
 
         }

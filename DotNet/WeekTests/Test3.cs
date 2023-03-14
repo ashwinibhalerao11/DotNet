@@ -59,6 +59,7 @@ namespace DotNet.WeekTests
     class Dog
     {
         //Q2 Use of base keyword
+
         internal  string colour;
     }
     class Bulldog:Dog
