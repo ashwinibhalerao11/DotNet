@@ -39,15 +39,17 @@ namespace DotNet.Array
                 Console.WriteLine("Enter the Name");
                 string name = Console.ReadLine();
                 Console.WriteLine("Enter the marks");
-                int[] mks = new int[4];
+                int[] mks = new int[3];
                 for (int j = 0; j < mks.Length; j++) 
                 {
                     mks[j] = int.Parse(Console.ReadLine());
                 }
                 s[i] = new Stud(id, name, mks);
-
+             
             }
-
+            Console.WriteLine(s);
+           
         }
+      
     }
 }
