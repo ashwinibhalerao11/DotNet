@@ -5,6 +5,7 @@ using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace DotNet.WeekTests.Array_Test
 {
@@ -227,6 +228,17 @@ namespace DotNet.WeekTests.Array_Test
             }
 
         }
+    }
+    class Duplicates
+    {
+        // Q7  Write a  program to remove duplicate elements from an array?
+        //   Array With Duplicates : [4, 3, 2, 4, 9, 2]
+        //    Array Without Duplicates : [4, 3, 2, 9]
+        static void Main(string[] args)
+        {
+
+        }
+
     }
 
 
